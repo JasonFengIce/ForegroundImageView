@@ -9,8 +9,8 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 def projectName = "ForegroundImageView"
 def versionTag = "1.0"
 def groupId = "com.example.foregroundimageview"
-def siteUrl = 'git@git.oschina.net:iiidai/InjectDB.git'
-def gitUrl = 'git@git.oschina.net:iiidai/InjectDB.git'
+def siteUrl = 'git@github.com:JasonFengIce/ForegroundImageView.git'
+def gitUrl = 'git@github.com:JasonFengIce/ForegroundImageView.git'
 
 
 version = versionTag
@@ -32,12 +32,12 @@ bintray {
     pkg {
         repo = 'maven'
         name = projectName
-        desc = 'This is Android Sqlite Helper'
+        desc = 'This is Android Widget'
         websiteUrl = siteUrl
         issueTrackerUrl = 'https://github.com/bintray/bintray-examples/issues'
         vcsUrl = gitUrl
         licenses = ['Apache-2.0']
-        labels = ['aar', 'android', 'sqlite']
+        labels = ['aar', 'android', 'view']
         publicDownloadNumbers = true
     }
 }
